@@ -12,7 +12,7 @@ const CardDisplay: React.FC<CardDisplayProps> = ({ details }) => {
     <div className="card-wrapper">
   {/* Front of the card */}
   <div className="card front">
-    <img src="../images/card-logo.svg" alt="card-logo" id="card-logo" />
+    <img src="/images/card-logo.svg" alt="card-logo" id="card-logo" />
     <div className="card-number">{details.number || "0000 0000 0000 0000"}</div>
     <div className="card-name">{details.name || "JANE APPLESEED"}</div>
     <div className="card-expiry">{details.expiry || "00/00"}</div>

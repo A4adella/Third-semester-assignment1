@@ -36,7 +36,7 @@ export const CompletedState: React.FC<CompletedStateProps> = ({ setIsSubmitted, 
 
   return (
     <div className="completed-state">
-      <img src="../images/icon-complete.svg" alt="complete" />
+      <img src="/images/icon-complete.svg" alt="complete" />
       <h2 id="completedstate-heading">THANK YOU!</h2>
       <p id="completedstate-txt">We've added your card details</p>
       <button
